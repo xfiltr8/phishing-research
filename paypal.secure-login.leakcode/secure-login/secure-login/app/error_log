@@ -1,0 +1,39 @@
+[01-Aug-2019 04:37:52 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[02-Aug-2019 22:35:35 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[02-Aug-2019 22:35:35 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 64
+[02-Aug-2019 22:35:35 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 54
+[02-Aug-2019 22:35:35 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 52
+[02-Aug-2019 22:35:35 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 62
+[02-Aug-2019 22:36:07 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[02-Aug-2019 22:36:07 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 64
+[02-Aug-2019 22:36:07 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 54
+[02-Aug-2019 22:36:07 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 52
+[02-Aug-2019 22:36:07 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 62
+[02-Aug-2019 22:36:17 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 64
+[02-Aug-2019 22:36:17 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 54
+[02-Aug-2019 22:36:17 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 52
+[02-Aug-2019 22:36:17 UTC] PHP Notice:  Trying to get property of non-object in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 62
+[03-Aug-2019 07:03:13 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:14 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:15 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:16 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:17 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:18 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:19 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:20 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:22 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:23 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:24 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:25 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:26 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:27 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:28 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:29 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:30 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:31 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:32 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[03-Aug-2019 07:03:33 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[04-Aug-2019 16:43:45 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[04-Aug-2019 16:44:12 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[06-Aug-2019 09:32:21 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20
+[06-Aug-2019 09:32:50 UTC] PHP Notice:  Undefined index: HTTP_ACCEPT_LANGUAGE in /home/elservis/account-verify-again.smirnovas.lt/secure-login/extra/algo.php on line 20

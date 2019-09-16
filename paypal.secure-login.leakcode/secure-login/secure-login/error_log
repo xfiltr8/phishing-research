@@ -1,0 +1,2 @@
+[06-Aug-2019 11:37:08 UTC] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/elservis/account-verify-again.smirnovas.lt/secure-login/index.php on line 40
+[06-Aug-2019 11:37:13 UTC] PHP Notice:  Undefined index: HTTP_USER_AGENT in /home/elservis/account-verify-again.smirnovas.lt/secure-login/index.php on line 40

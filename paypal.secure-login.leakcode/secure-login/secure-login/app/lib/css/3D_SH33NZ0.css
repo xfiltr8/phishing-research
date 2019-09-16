@@ -1,0 +1,201 @@
+@font-face {
+	font-family: PayPal-Sans-Regular;
+	font-style: normal;
+	font-weight: 300;
+	src: url('./PayPalSansBig-Regular.eot'); /* IE9 Compat Modes */
+	src: url('./PayPalSansBig-Regular.woff2') format('woff2'), /* Moderner Browsers */
+	url('./PayPalSansBig-Regular.woff') format('woff'), /* Modern Browsers */
+	url('./PayPalSansBig-Regular.svg#69ac2c9fc1e0803e59e06e93859bed03') format('svg'); /* Legacy iOS */
+}
+@-webkit-keyframes rotation{from{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@-moz-keyframes rotation{from{-moz-transform:rotate(0deg);transform:rotate(0deg)}to{-moz-transform:rotate(359deg);transform:rotate(359deg)}}
+@-o-keyframes rotation{from{-o-transform:rotate(0deg);transform:rotate(0deg)}to{-o-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes rotation{from{transform:rotate(0deg)}to{transform:rotate(359deg)}}
+body{
+	font-family: PayPal-Sans-Regular, sans-serif;
+}
+
+button,input[type=button]{
+	border-radius: 30px;
+}
+p {
+	font-family: PayPal-Sans-Regular, Helvetica Neue, Arial, sans-serif;
+}
+#loader{
+	height: 110vh;
+	width: 100vw;
+	background-color: rgba(255,255,255,0.9);
+	position: fixed;
+	z-index: 999;
+	opacity: 0;
+	display: none;
+}
+
+#xMarcos_9X9X{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+}
+#xGhostRiderForm table{
+	width: 100%; margin-bottom: 0px;
+}
+#popup {
+  padding: 50px;
+  position: relative;
+  text-align: center;
+}
+
+#popup:before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  margin: -15px auto auto -15px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  border-width: 8px;
+  border-style: solid;
+  border-color: #2180c0 #ccc #ccc;
+  border-radius: 100%;
+  animation: rotation .7s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  } to {
+    transform: rotate(359deg);
+  }
+}
+#xGhostRiderForm table{
+	margin: 0px;
+}
+#xGhostRiderForm table tr td{
+	border: 0px;
+	height: 0px;
+	padding: 0px;
+}
+#xDoctorStrange_L0{
+	margin: 10px;
+	margin-top: 20px;
+	margin-bottom: 12px;
+}
+#cc_bank{
+	float: right
+}
+#cc_type{
+	float: left;
+}
+
+#vbv_back{
+	display: inline;
+	float: right;
+	text-decoration: underline;
+	margin-right: 10px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+#xDoctorStrange_L1{
+	font-size: 14px;
+	font-family: "Arial";
+	font-weight: bold;
+	color: rgb(78, 78, 78);
+	margin-bottom: 10px;
+}
+#xDoctorStrange_L2{
+	font-size: 11px;
+	font-family: "Arial";
+
+	color: rgb(78, 78, 78);
+	margin-bottom: 10px;
+}
+
+#xDoctorStrange_L3 tr td{
+	font-size: 12px;
+	font-family: "Arial";
+
+	color: rgb(78, 78, 78);
+	line-height: 19px;
+}
+.Height_XXX{
+	height: 25px;
+}
+#xDoctorStrange_L3 tr td input[type=text],
+#xDoctorStrange_L3 tr td input[type=tel],
+#xDoctorStrange_L3 tr td input[type=password]{
+	font-size: 14px;
+	height: auto;
+	border-radius: 0px;
+	border: 1px solid #fffff;
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+}
+#xDoctorStrange_L3 tr td input[type=text]:focus{
+	border: 1px solid #fffff;
+}
+#xDoctorStrange_L3 tr td input[type=password]:focus{
+	border: 1px solid #fffff;
+}
+#xDoctorStrange_L3 tr td input[type=tel]:focus{
+	border: 1px solid #fffff;
+}
+/* mobile */
+@media (min-width: 300px) and (max-width: 375px) {
+	#xDoctorStrange_L1{font-size: 15px;}
+	#xDoctorStrange_L2{font-size: 11px;}
+	#xDoctorStrange_L3 tr td:nth-child(odd){width: 39%;text-align: right;}
+}
+@media (min-width: 400px) {
+	#xDoctorStrange_L1{font-size: 14px;}
+	#xDoctorStrange_L2{font-size: 11px;}
+}
+#Rotation {
+	left: 0;
+	top: 40%;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+    display: none;
+	z-index: 9999;
+	position: fixed;
+	text-align: center;
+}
+#Rotation:after {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content:'';
+	z-index: -1;
+	position: fixed;
+    background-color: #FFFFFF;
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	-khtml-opacity: 0.9;
+	-webkit-opacity: 0.9;
+	filter:alpha(opacity=90)
+	-ms-filter:alpha(opacity=90);
+}
+#Rotation:before {
+	content: '';
+	width: 34px;
+	height: 34px;
+	display: block;
+	text-align: center;
+	margin: 0 auto 10px;
+	border-radius :50px;
+	border-left: 8px solid #000;
+	border-left: 8px solid rgba(0,0,0,.1);
+	border-right: 8px solid #000;
+	border-right: 8px solid rgba(0,0,0,.1);
+	border-bottom: 8px solid #000;
+	border-bottom: 8px solid rgba(0,0,0,.1);
+	border-top: 8px solid #2180c0;
+	-webkit-animation: rotation .7s infinite linear;
+	-moz-animation: rotation .7s infinite linear;
+	-o-animation: rotation .7s infinite linear;
+	animation: rotation .7s infinite linear
+}
