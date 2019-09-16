@@ -1,0 +1,28 @@
+.cta-button-red, .cta-button-red .cta-button-text, .cta-button-gray, .cta-button-gray .cta-button-text {background-image: url(img/cta-buttons.png);}
+.ui-dialog-titlebar-close, .submit-button, .btn-detailed-report, .btn-apply-now, .btn-calculate, .btn-recalculate {background:url(img/non-tridion-sprite.png) 0 0 no-repeat; text-indent: -6666px; border: none; margin: 0; padding: 0; height:18px;}
+.text-container {font-size: 13px; color: #333;}
+.cta-button, .banner-frame .banner-learn-more {border: none; background-color: transparent; white-space: nowrap; background-position: right -730px; color: #FFF; text-decoration: none; font-weight: bold; cursor: pointer;}
+.cta-button .text, .cta-button .text, .banner-frame .banner-learn-more .text {display: block; height: 17px; margin: 0 14px 0 0; padding: 1px 6px 0; background-position: left -750px;}
+.cta-button, .cta-button {display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline;}
+.cta-button .text {max-width:160px; overflow:hidden;}
+.cta-more-details, .cta-button-red, .cta-button-gray, .cta-inline-button {background-repeat: no-repeat; font-size: 11px; line-height: 16px; text-decoration:none; color:#FFF; margin: 0 4px 5px; height:18px; text-decoration: none; text-align: left; padding-right: 20px; max-width: 550px; max-height: 18px; display:-moz-inline-stack; display:inline-block; zoom:1; *display:inline;}
+.cta-more-details {color: #333}
+.cta-more-details .cta-button-text {background: none; }
+.cta-more-details .cta-button-text {background-position: left -770px; }
+.cta-more-details {background-position: right -770px;}
+.cta-button-gray .cta-button-text {background-position: left -22px;}
+.cta-button-gray {background-position: right -22px;}
+.cta-button-red .cta-button-text {background-position: left 0px;}
+.cta-button-red {background-position: right 0px;}
+.cta-button-flat {background-position: right -556px;}
+.cta-button-flat .text {color: #333; background: transparent;}
+.cta-inline-button .cta-button-text {float: left; padding: 0; margin: 0; min-width:0; height:18px; margin-left: -4px; width: 5px;}
+.ie6 .cta-inline-button .cta-button-text {margin-left: 0;}
+/* setting up the style for the text containers */
+.ui-dialog ul, .ui-dialog ol, .disclosure-footer ol, .disclosure-footer ul, .tab-panel ol, .tab-panel ul, .tab-menu-panel ol, .tab-menu-panel ul, .text-container ol, .text-container ul {padding-left: 20px; margin:1em 0;}
+.ui-dialog ul, .disclosure-footer ul, .tab-panel ul, .tab-menu-panel ul, .text-container ul {list-style-type:disc;}
+.ui-dialog ol, .disclosure-footer ol, .tab-panel ol, .tab-menu-panel ol, .text-container ol {list-style-type:decimal;}
+/* ===== MKS UBR #18299 ====================== */
+.component {background: none repeat scroll 0 0 white; margin-bottom: 8px; padding: 6px; position: relative;}
+.component p {margin: 6px 0;}
+.adaAccessibilityHidden {position: absolute; left: -1000px; top: 0px; overflow: hidden; width: 0;}

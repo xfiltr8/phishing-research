@@ -1,0 +1,86 @@
+.logo {width: 204px; height: 59px; background-position: 0 -50px;}
+
+.sub-nav-item-face a {background-position: right -483px;}
+
+.sub-nav-item-face a:hover,
+.hover .sub-nav-item-face a {background-position: right -435px;}
+
+.carousel-item {color: #fff;}
+.carousel-item {background: #000;}
+.carousel-item a {color: #1a454f;}
+.carousel-item .h4,
+.carousel-item .component-content {color: #fff;}
+.carousel-item .h5 {color: #003d4c;}
+.carousel .highlighted {background: #000;}
+.carousel .highlighted .h5 {color: #fff;}
+.carousel .highlighted .more {border-color: #606060;}
+.carousel .more {font-weight: bold;}
+
+.carousel-item .more {background-position: right -2px; color: #fff;}
+.home-notification {background: #2E2E2F;}
+
+#the-private-bank {background-size: cover;}
+#the-private-bank .top-actions-container {background-color:#929496; margin-top:0;}
+
+.product-list .component h4 {color: #1a454f;}
+.call-to-action-messaging .more {color: #666; background-position: right -8px;}
+
+.carousel {width: 860px; background: transparent;}
+.carousel  {padding: 15px 33px;}
+.carousel {width: 794px;}
+
+.carousel-item {margin-right: 7px;}
+.carousel-item {width: 181px; height: 193px; padding: 6px;}
+.carousel-item .more {width: 156px;}
+.carousel-item img {width: 181px; height: 78px;}
+
+/* ===== Find a Banker for Private Bank ====================== */
+.find-banker .component {background: #d3d3d3 none; border-top:6px solid #434343;}
+.find-banker .hot-component .component-title {border-bottom: none;}
+.find-banker .component-content {border-bottom: 1px dotted #7B8182;}
+.find-banker .component .more {background-position: right -38px; color:#1A454F;}
+.find-banker .img-full {border: 1px solid #666;}
+.find-banker .img-right {border: 1px solid #333333;}
+
+/* ===== Tabbed pages for Private Bank ====================== */
+.tabbed-content-general .current,
+.tabbed-content-general .tabs,
+.tabbed-menu-content-general .current,
+#the-private-bank .tabbed-menu-content-general .tabs {border-bottom: 3px solid #000;}
+.tabbed-content-general .tabs .current,
+#the-private-bank .tabbed-menu-content-general .tabs .current {background: #000 none repeat scroll 0 0 ;}
+.tabs .current .tab-top {background-position: right -894px; background-repeat: repeat;}
+.tabs .current .tab-top i {background-position: left -844px;}
+.tabs .current .tab-top b {background-position: right -844px;}
+
+#the-private-bank .copyright-footer {background: #fff; border-top: 7px solid #2E2E2F;}
+#the-private-bank .carousel-clip {height: 205px;}
+#the-private-bank .home-page-link {background-color: #000;}
+#the-private-bank .copyright-footer .copyright-text {border-top: 1px solid #333;}
+#the-private-bank .carousel h4 {font-size: 13px;}
+#the-private-bank .carousel-item .component-content {font-size: 11px;}
+#the-private-bank .product-list h1 {color: #000000; text-transform: none;}
+#the-private-bank .product-list h2 {color: #000000; text-transform: none;}
+#the-private-bank .product-list h3 {color: #000000; text-transform: none;}
+#the-private-bank .component-title {text-transform: none;}
+#the-private-bank .hot-component .component-title {color: #000000; border-left: 3px solid #E60000; border-bottom: none; padding-left: 5px;}
+#the-private-bank .home-notification {background: #2E2E2F;}
+#the-private-bank .hot-component {background: #d3d3d3 none;}
+#the-private-bank .main-content-right-rail .component, #the-private-bank .call-to-action-messaging {background: #d3d3d3; color: #333;}
+#the-private-bank .component .hr {border-bottom: 1px dotted black;}
+#the-private-bank .main-content-area-promo-panel .call-to-action-messaging {background: #fff;}
+#the-private-bank .cta-button-gray {background-position: right -8px; background-image: url(img/vertical-icon-sprite.png);}
+#the-private-bank .cta-button-gray .text {color:#333; font-weight: bold;}
+#the-private-bank .cta-button-gray .cta-button-text {background:none;}
+
+/* red arrow next to more or cta buttons */
+#the-private-bank a.more, #the-private-bank .cta-button-gray  {background-image: none;}
+#the-private-bank a.more::after, #the-private-bank .cta-button-gray .text::after  {content: ""; font-size: 0; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 10px solid #E60000; margin: 0 0 0 5px; position: relative; top: -4px;}
+
+/* FAB on PB */
+#the-private-bank .find-banker input {margin-left: 0px;}
+#the-private-bank .find-banker .hot-component {min-height: 132px;}
+#the-private-bank #fabSearchButton {background-image: none; text-decoration: none;}
+#the-private-bank #formFindaBanker .find-button {text-indent: 0; color: #333; font-weight: bold; width: 0; line-height: 23px;}
+#the-private-bank #fabSearchButton::before {content: "Find";}
+#the-private-bank #fabSearchButton::after {content: ""; font-size: 0px; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 10px solid #E60000; margin: 0 0 0 5px; position: relative; top: -4px;}

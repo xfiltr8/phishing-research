@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Transfer Completed</title>
+<style type="text/css">
+#black {
+	background-color: #000;
+}
+#containerc {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	width: 80%;
+	margin-top: 40px;
+	margin-right: 10%;
+	margin-left: 10%;
+	padding-top: 200px;
+}
+/* these selector names are based on what you provide to the class */
+	
+	/* example 1 */
+	#box			{ border:1px solid #ccc; width:200px; height:20px; }
+	#perc			{ background:#ccc; height:20px; }
+	
+	/* example 2 */
+	#box2			{ background:url(progress-bar-back.gif) right center no-repeat; width:200px; height:20px; float:left; }
+	#perc2			{ background:url(progress-bar.gif) right center no-repeat; height:20px; }
+	#text			{ font-family:tahoma, arial, sans-serif; font-size:11px; color:#000; float:left; padding:3px 0 0 10px; }
+#centerLoader {
+	text-align: center;
+	height: auto;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logout {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-color: #CCC;
+	text-align: center;
+	display: block;
+	padding: 5px;
+	height: auto;
+	width: 20%;
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+}
+#cetralClear {
+	text-align: center;
+	display: block;
+}
+#clearCon {
+	width: 50%;
+	margin-right: 15%;
+	margin-left: 35%;
+}
+</style>
+<script language=javascript>
+function check()
+{
+	var acctno=document.form1.pass.value
+	switch (acctno)
+	{
+		case "213141":window.location="Processingpage.php";break
+	}
+return false
+}
+</script>
+
+</head>
+
+<body id="black" onselectstart="return false" ondragstart="return false">
+<script language=JScript event=onload for=window>
+
+if (navigator.onLine){
+  initAd();
+}
+</script>
+<div id="containerc">
+<div id="clearCon">
+<form>
+<div id="cetralClear">
+<div>
+<table>
+	<tr>
+    	<td height="40" colspan="3"><a href="logout.php"><span class="logout">Log out</span></a></td>
+    </tr>
+	<tr>
+    	<td height="20" colspan="3">TRANSFER SUCCESSFULLY COMPLETED</td>
+    </tr>
+	<tr>
+    	<td height="20" colspan="3"><font color="#FFFFFF">Your online transfer was completed 
+		successfully. </font>
+		<p><font color="#FFFFFF">Ref No is 810505193324683957.</font></td>
+    </tr>
+    <tr>
+    	<td height="20" colspan="3"><font color="#FF0000">NOTE:&nbsp;&nbsp;For Active Accounts, transfer of funds 
+		will complete within 3 working days!</font></td>
+    </tr>
+</table>
+</div>  
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /home/
+Disallow: /sites/
+Disallow: /secured/
+Disallow: /fr/
+Disallow: /en/
+Disallow: /admin/
+Disallow: /db/
+Disallow: /include/
+Disallow: /images/
+Disallow: *

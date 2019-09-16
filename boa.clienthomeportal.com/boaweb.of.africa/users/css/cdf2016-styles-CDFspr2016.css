@@ -1,0 +1,1754 @@
+﻿/* 
+This CSS Style Sheet and its content is owned by Union Bank. Replication is prohibited without written
+consent from Union Bank. 
+
+Please keep in mind when optimizng these style sheets that there are certain standards you must 
+follow based on Union Bank specifications. One important one is, "(11) All layout must be 
+done in Ems". This means the unit of measure to use is Ems, not pixel. 
+
+Assuming the default 16px font size most browsers use,
+use the following formula:  (1 ÷ parent font size (px) × required pixels = em equivalent)
+*/
+
+
+/* First: Get the new HTML5 tags to behave with CSS and the website's browser connectivity */
+
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, td, video, tt,
+u, ul, 
+var{
+    background: transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+    vertical-align: top; }
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+table, table td { 
+	padding:0;
+	border:none;
+	border-collapse:collapse;
+}
+img {
+	vertical-align:top; 
+}
+embed { 
+	vertical-align:top;
+}
+
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{ display: block; }
+mark, rp, rt, ruby, summary, time{ display: inline }
+
+
+html, body { height:100%;}
+
+/* Global properties
+---------------------------------------- */
+body { 
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1.25em;
+	background: url("../../ubimages/cdf0914-body-bckgrd-img-CDFspr2016.gif") top left #ededed repeat;
+	width:100%;
+	margin:auto;
+	color:#333333;
+}
+
+/* 
+Second tier of the body background image
+needed to fill in the top half of the page. 
+---------------------------------------- */
+
+#secondLevel { 
+ 	background: url("../../ubimages/cdf0914-body-bckgrd-img-2nd-level-CDFspr2016.gif") top left repeat-x;
+	width:100%;
+	margin:auto;
+	position:relative;
+	overflow:hidden; 
+}
+
+
+/* Start General Elements ------------- */
+
+h1, h2, h3{
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:1.9em;
+	font-weight:300;
+	display:block; 
+	position:relative; 
+	border:none; 
+	/*padding: 0.7em 0.9em 0.7em 0.9em;*/
+}
+
+h1 { color: #5a5a5a; padding: 3em 0em 0em 0.9em;}
+h2 { color: #000; font-size:1.2em; padding-left:1.4em; }
+
+p {padding-bottom:0.7em; line-height:1.3em;}
+
+/*----- links -----*/
+a {color:#5b5b5b; outline:none; text-decoration:underline;}
+a:hover, a:focus { text-decoration:none;}
+a:active, a:visited { }
+
+.article a { text-decoration:none;}
+/* Forms default */
+input, select, textarea { 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+}
+
+
+.clear { clear:both;}
+
+/* End General Elements ---------------- */
+
+
+/* HTML Header
+---------------------------------------- */
+
+#header{	 
+	background:url(../../ubimages/cdf-header-container-CDFspr2016.jpg) top left no-repeat;
+	position:relative;
+	z-index:900; 
+    width:61.563em; 
+	height:24em; 
+	margin:0em auto 0em auto;
+	overflow:hidden; 
+}
+
+#header .cdfLogo { margin: 2em 0em 0em 0.5em; }
+#header .unionBankLogo { margin: 3em 0em 0em 4.85em; }
+
+/* Header Content - Logo & Banner
+---------------------------------------- */
+
+#headerContainer{
+	position:absolute;
+	width: 100%;
+	left: 0em;
+	top: 0em;
+	height: 20.500em;
+	margin:1.4em 0em 0em 2.0em;
+	overflow:hidden; 
+}
+	
+#logo{	 
+	position:relative;
+	top:0em;
+	left:0em;
+	width:12.3em;
+	margin:0em 0em 0em 0em;
+
+}
+#logo .logoSize {
+	width:12.3em; 
+	height:2.9em; 
+}
+	
+#banner{	 
+	position:absolute;
+	top:0em;
+	left:17.0em;
+	margin:0.1em 0em 0em 0em;
+	
+}
+
+#headerStreamContainer{
+	position:absolute;
+	left: 0em; 
+	top: 9.9em; 
+	width: 56.4em; 
+	height: 1.75em;
+	margin:1.7em 2.7em 0em 2.8em;
+	overflow:hidden; 	
+	font-weight:bold;	
+}
+
+/* Start left & right streams */
+
+div.headerStreamLeft{
+	text-align:left;
+	position:absolute;
+	color:#fff;
+	width: 50%;
+	font-size:0.7em;
+	height: 1.6em;
+	overflow:hidden; 
+	top:1px;
+	
+}
+div.headerStreamRight{
+	text-align:right;
+	position:absolute;
+	text-transform:uppercase;
+	color:#fff;
+	left: 50%;
+	width: 50%;
+	font-size:0.9em;
+	height: 1.9em;
+	overflow:hidden; 
+	top:0.75em;
+}
+	
+/* end left & right streams */
+	
+	
+/* Start first HTML content section-based div
+---------------------------------------- */
+#sectionContent{
+	background:url('../../ubimages/cdf0914-content-body-bckgrd-img-CDFspr2016.png') top left repeat-y;
+	position:relative;
+	z-index:900; 
+ 	overflow: hidden;
+	margin:0em auto 0em auto;	
+    width:61.563em;
+}
+
+#sectionContent .headline { 
+	color:#e60000; 
+	font-weight:bold; 
+	background-color:#ffffff; 
+	padding: 1.6em 0em 0em 2em; 
+	height:0.5em; 
+	font-size:1em;
+	letter-spacing:0.45em;
+}
+
+#sectionContent .headline2 { 
+	color:#fff; 
+	font-weight:bold; 
+	background-color:#5a5a5a; 
+	padding: 0.938em 0em 0em 1.375em; 
+	height:2.1em; 
+	font-size:1.2em;
+  margin-left: .2em;
+}
+
+#sectionContent .headline3 { 
+	color:#e60000; 
+	font-weight:bold; 
+	background-color:#ffffff; 
+	padding: 0em 0em 0em 1.375em; 
+	height:2.1em; 
+	font-size:1.2em;
+}
+
+#sectionContent .headline4 { 
+	color:#e60000; 
+	font-weight:bold; 
+	height:0.5em; 
+	font-size:1em;
+	letter-spacing:0.45em;
+	padding-left: 1em;
+	padding-bottom: 2em;
+}
+
+#sectionContent .title { 
+	color:#5a5a5a; 
+	padding: 1em 0em 0em 0.4em; 
+	font-size:2.2em;
+	line-height:1.2em;
+}
+
+#sectionContent .subhead { 
+	color:#5a5a5a;
+	font-weight:bold; 
+	height:2.1em; 
+	font-size:1.2em;
+	padding-top: 1em;
+	padding-left: 0.8em;
+	line-height:1.3em;
+}
+
+#sectionContent .subhead2 { 
+	color:#5a5a5a;
+	font-weight:bold; 
+	height:2.1em; 
+	font-size:1.2em;
+	padding-top: 1em;
+	padding-left: 0.8em;
+	padding-bottom: 2em;
+	line-height:1.3em;
+}
+
+#sectionContent .headline.f1p1 { 
+	font-size:1.1em;
+}
+
+#sectionContent .headline.right { 
+	padding: 0.938em 1.375em 0em 0em; 
+	text-align: right;
+}
+
+
+
+#sectionContent .figCaption { color:#000;font-size:0.79em;line-height:1.2em;font-weight:bold; }
+
+/* Start Inner HTML Figure and Article content sections
+Note: Elements change for each page.
+------------------------------------------------------ */
+
+#sectionRightContent{
+	 position:absolute;
+ 	 left: 23.7em;
+ 	 top: 0em;
+   width: 56.6em;
+   overflow:hidden; 
+}
+
+
+/* First Page -------------------- 
+CDF Focuses on San Francisco
+*/
+#sectionContentInner1{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:117em;
+}
+
+#sectionContentInner1 h1 {
+	padding-top: 2em;
+	line-height:1.2em;
+	padding-bottom: 2.1em;
+}
+
+
+
+#sectionContentInner1 .figCaption { padding-top:5.25em; padding-left:2.3em; }
+#sectionContentInner1 .article{	padding-top: 3.95em;}
+#sectionContentInner1 .articleContent{	padding: 0.7em 1.5em;}
+#sectionContentInner1 .figure{margin-left: .2em;}
+#sectionContentInner1 .figure .textLeft{width: 30em;}
+#sectionContentInner1 .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+}
+
+/* end First Page */
+
+
+
+
+
+
+
+
+#sectionNotesfromCDFT{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:135em;
+}
+
+#sectionNotesfromCDFT .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+}
+
+#sectionNotesfromCDFT .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionNotesfromCDFT .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionNotesfromCDFT .figCaption { padding-top:1em; padding-left:3em; }
+#sectionNotesfromCDFT .article{	padding-top: 4.01em;}
+#sectionNotesfromCDFT .articleContent{	padding: 0.7em 1.5em;}
+
+
+
+#sectionNotesfromCDFT img {
+	margin-top: 1em;
+}
+
+
+
+
+
+
+#sectionContentCDFTNews{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:52em;
+}
+
+#sectionContentCDFTNews .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+}
+
+#sectionContentCDFTNews .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionContentCDFTNews .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionContentCDFTNews .figCaption { padding-top:1em; padding-left:3em; }
+#sectionContentCDFTNews .article{	padding-top: 4.01em; margin-bottom: 100px;}
+#sectionContentCDFTNews .articleContent{	padding: 0.7em 1.5em;}
+
+#sectionContentCDFTNews .article p {
+  padding-bottom: 1em;
+  line-height: 1.43em;
+  padding-top: 1.375em;
+  padding-left: 1em;
+}
+
+#sectionContentCDFTNews img {
+	margin-top: 1em;
+	padding-left: 1em;
+}
+
+
+
+
+
+/*sectionDevelopment Profile */
+
+#sectionDevelopmentProfile{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:125em;
+	
+}
+
+#sectionDevelopmentProfile .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+    margin-left: .2em;
+}
+
+#sectionDevelopmentProfile .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+	  padding-top: 0.5em;
+}
+
+#sectionDevelopmentProfile .figureRight{
+	  float: right;
+	  width: 18em;
+	  margin: 0.6em 0em 5em 2em;
+	  padding: 1.5em 1.5em 1em 1em;
+	  background-color:#e6e6e6;
+}
+
+
+
+
+#sectionDevelopmentProfile .figCaption { padding-top:1em; padding-bottom: 1em; width: 100%; background: #ffffff;}
+#sectionDevelopmentProfile .article{	padding-top: 4.01em;}
+#sectionDevelopmentProfile .articleContent{	padding: 0.7em 1em;}
+
+#sectionDevelopmentProfile .articleContent .redType{	color:#e60000;}
+
+#sectionDevelopmentProfile .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+#sectionDevelopmentProfile img {
+	margin-top: 1em;
+}
+
+/*#sectionSpotlight*/
+
+#sectionSpotlight{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:95em;
+	
+}
+
+#sectionSpotlight .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+    margin-left: .2em;
+}
+
+#sectionSpotlight .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+	  padding-top: 0.5em;
+}
+
+#sectionSpotlight .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionSpotlight .figCaption { padding-top:1em; padding-left:.5em; padding-bottom: 0.5em; width: 45%; background: #ffffff; float: right;}
+#sectionSpotlight .article{	padding-top: 4.01em;}
+#sectionSpotlight .articleContent{	padding: 0.7em 1em;}
+
+#sectionSpotlight .articleContent .redType{	color:#e60000;}
+
+#sectionSpotlight .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+#sectionSpotlight img {
+	margin-top: 1em;
+}
+
+
+
+
+
+/*#sectionClientProfile*/
+
+#sectionClientProfile{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:130em;
+}
+
+#sectionClientProfile .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+}
+
+#sectionClientProfile .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+	  padding-top: 0.5em;
+}
+
+#sectionClientProfile .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionClientProfile .figCaption { padding-top:1em; padding-bottom: 1em; width: 100%; background: #ffffff;}
+#sectionClientProfile .article{	padding-top: 4.01em;}
+#sectionClientProfile .articleContent{	padding: 0.7em 2em 0.7em 1.2em;}
+
+#sectionClientProfile .article p {
+  padding-bottom: 1em;
+  line-height: 1.43em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+#sectionClientProfile img {
+	margin-top: 1em;
+}
+
+
+/*end #sectionClientProfile*/
+
+/*sectionInTheNews*/
+
+#sectionInTheNews{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:130em;
+	
+}
+
+#sectionInTheNews .figure{
+	  padding-left: 0.5em;
+	  padding-right: 1em;
+    margin-left: .2em;
+}
+
+#sectionInTheNews .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+	  padding-top: 0.5em;
+}
+
+#sectionInTheNews .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+
+#sectionInTheNews .figCaption { padding-left:1.3em;padding-top:1em;  padding-bottom: 0.5em; width: 95%; background: #ffffff;}
+
+
+
+#sectionInTheNews .article{	padding-top: 4.01em;}
+
+#sectionInTheNews .articleContent{	padding: 0.7em 1em;}
+
+#sectionInTheNews .articleContent .redType{	color:#e60000;}
+
+#sectionInTheNews .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+#sectionInTheNews img {
+	margin-top: 1em;
+}
+
+/*end sectionInTheNews */
+
+/*sectionInTheNews2*/
+
+#sectionInTheNews2{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:50em;
+	
+}
+
+#sectionInTheNews2 .figure{
+	  padding-left: 0.5em;
+	  padding-right: 1em;
+    margin-left: .2em;
+	padding-bottom: 1em;
+}
+
+#sectionInTheNews2 .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+	  padding-top: 0.5em;
+}
+
+#sectionInTheNews2 .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+
+#sectionInTheNews2 .figCaption { padding-left:1.3em;padding-top:1em;  padding-bottom: 0.5em; width: 95%; background: #ffffff;}
+
+
+
+#sectionInTheNews2 .article{	padding-top: 4.01em;}
+
+#sectionInTheNews2 .articleContent{	padding: 0.7em 1em;}
+
+#sectionInTheNews2 .articleContent .redType{	color:#e60000;}
+
+#sectionInTheNews2 .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+  padding-left: 1em;
+}
+
+#sectionInTheNews2 img {
+	margin-top: 1em;
+}
+
+/*end sectionInTheNews2 */
+
+
+
+
+#colorfix{
+	background-color: #ffffff;
+}
+
+
+
+
+#sectionContentInnersocal2{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:153em;
+}
+
+
+#sectionContentInnersocal2 .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+
+}
+
+#sectionContentInnersocal2 .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionContentInnersocal2 .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionContentInnersocal2 .figCaption { padding-top:1em; padding-left:.5em; width: 45%; background: #ffffff; }
+
+#sectionContentInnersocal2 .SantaBarbarafigCaption { padding-top:1em; padding-left:.5em; width: 95%; background: #ffffff; color:#000;font-size:0.79em;line-height:1.2em;font-weight:bold; }
+#sectionContentInnersocal2 .article{ padding-top: 4.0em; margin-left: .2em;}
+#sectionContentInnersocal2 .article2{ padding-top: 2.0em; margin-left: .2em;}
+#sectionContentInnersocal2 .articleContent{	padding: 0.7em 1.5em;}
+
+#sectionContentInnersocal2 .article p {
+  line-height: 1.43em;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+#sectionContentInnersocal2 img {
+	margin-top: 1em;
+}
+
+#sectionContentInnersocal2 #sectionRightContent .article .headline {
+  margin-left: 0em;
+}
+
+
+
+
+
+
+
+
+/*innovation in socal*/
+#sectionContentInnersocal{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:135em;
+}
+
+#sectionContentInnersocal .figure{
+	  padding-left: 1em;
+	  padding-right: 1em;
+}
+
+#sectionContentInnersocal .figure .textLeft{
+	  float: left;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionContentInnersocal .figure .textRight{
+	  float: right;
+	  width: 28.3em;
+	  padding-right: 1em;
+}
+
+#sectionContentInnersocal .figCaption { padding-top:1em; padding-left:3em; }
+#sectionContentInnersocal .article{	padding-top: 4.01em;}
+#sectionContentInnersocal .articleContent{	padding: 0.7em 1.5em;}
+
+#sectionContentInnersocal .article p {
+  padding-bottom: 1em;
+  line-height: 1.43em;
+  padding-top: 1.375em;
+  padding-left: 1em;
+}
+
+#sectionContentInnersocal img {
+	margin-top: 1em;
+}
+/*end innovation in socal*/
+
+/*notes from the cdf team*/
+#sectionRightContentCDFTeam{
+ 	position:absolute;
+	left: 23.7em;
+	top: 0em;
+ 	width: 56.6em;
+ 	overflow:hidden; 
+ 	padding-top: 4em;
+  margin-left: 0.1em;
+}
+
+#sectionRightContentCDFTeam .articleContent{
+	padding: 1.375em 5.6em 0em 1.375em;
+}
+
+
+/*end notes from the cdf team*/
+
+/*news briefs 2*/
+#sectionContentInnernewsbriefs2{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+	overflow:hidden;
+	height:165em;
+}
+
+#sectionContentInnernewsbriefs2 .figCaption { 
+	padding-top: 2em; 
+}
+
+#sectionContentInnernewsbriefs2 .article{	
+	padding-top: 3.95em;
+}
+
+#sectionContentInnernewsbriefs2 .articleContent{	
+	padding: 0.7em 1.5em;
+}
+
+#sectionContentInnernewsbriefs2 img {
+	margin-bottom: 1em; 
+	margin-top: 1em;
+}
+
+#sectionContentInnernewsbriefs2 .figure .textLeft {
+  width: 21.4em;
+  padding: 1.375em 5.6em 0em 1.375em;
+}
+
+#sectionContentInnernewsbriefs2 .figure .textRight {
+  width: 21.4em;
+  padding: 1.375em 5.6em 0em 1.375em;
+  display: table-cell;
+  padding-top: 2.5em;
+}
+
+
+/*end news briefs 2*/
+
+#sectionNotesfromCDFT{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:46em;
+}
+
+#sectionNotesfromCDFT .figCaption { padding-top:5.25em; padding-left:3em; }
+#sectionNotesfromCDFT .article{	padding-top: 3.95em;}
+#sectionNotesfromCDFT .articleContent{	padding: 0.7em 1.5em;}
+#sectionNotes .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+}
+
+/*contact the team*/
+#sectionContentcontact{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:163em;
+}
+
+#sectionContentcontact .figCaption { padding-top:5.25em; padding-left:3em; }
+#sectionContentcontact .article{	padding-top: 3.95em;}
+#sectionContentcontact .articleContent{	padding: 0.7em 1.5em;}
+
+/*end contact the team*/
+
+/*start CDFTeamNews*/
+
+#sectionContentCDFT .article {
+  padding-top: 4em;
+  margin-left: 0.1em;
+}
+.
+/*end CDFTeamNews*/
+
+
+
+/* Second Page -------------------- 
+Rosslyn Hotel
+*/
+#sectionContentInner2{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+	overflow:hidden; 
+	height:89em;
+}
+
+#sectionContentInner2 h1 {
+	padding-top: 2.9em;
+	line-height:1.2em;
+}
+
+#sectionContentInner2 h2 {
+	line-height:1.2em;
+	padding-top:0.3em;
+}
+
+#sectionContentInner2 .figCaption { padding-top:8.5em; padding-left:2em; }
+#sectionContentInner2 .article{	padding-top: 4em;}
+#sectionContentInner2 .articleContent{	padding: 0.7em 1.5em; width:45.4em; }
+#sectionContentInner2 .articleContent a { text-decoration: underline; }
+
+#sectionContentInner2 .figure { 
+	background: url('../../ubimages/cdf0914-rosslyn-hotel-CDFspr2016.html') no-repeat scroll 0% 0% #f4f1eb;
+	padding:0.125em 0em 0em 0.063em; 
+	height:21.5em;
+	margin-left:.1em;
+}
+
+#sectionContentInner2 .figure .textLeft {
+	padding-left: 18.583em;
+	width:26em;
+	line-height:1.2em;
+}
+
+/* end Second Page */
+
+/* Third Page -------------------- 
+Expanding our Reach
+*/
+#sectionContentInner3{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden;
+  	height:58em;
+}
+
+#sectionContentInner3 .article{	padding-top: 4em; margin-left: 0.1em;}
+#sectionContentInner3 .articleContent{	padding: 0.7em 1.5em;}
+
+#sectionContentInner3 .figure {
+	height:23.333em;
+}
+
+#sectionContentInner3 .figure img.left {
+	float:left;
+	padding: 2.583em 2.775em 0em 1.5em;
+}
+
+#sectionContentInner3 .figure .textLeft { 
+	width:21.4em; 
+	padding: 1.375em 5.6em 0em 1.375em;
+}
+
+#sectionContentInner3 .figure .textRight {
+	float:left;
+	width:19em;
+	padding-top: 2em;
+}
+
+#sectionContentInner3 .p { line-height:1.4em; }
+
+
+
+/* end Third Page */
+
+/* Fourth Page -------------------- 
+Jan Woolsey
+*/
+#sectionContentInner4{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden; 
+  	height:78em;
+}
+
+#sectionContentInner4 .article{	padding-top: 4em; margin-left: 0.1em;}
+#sectionContentInner4 .articleContent{	padding: 0.7em 1.5em; width: 51em; }
+
+#sectionContentInner4 img.left {
+	float:left;
+	padding: 0em 2.9em 0.25em 0em;
+  margin-left: .2em;
+}
+
+#sectionContentInner4 .textRight {
+	float:left;
+	width:16em;
+	padding-top: 5.6em;
+}
+
+#sectionContentInner4 .headline .semicolon {
+	font-size: 0.8em;
+	vertical-align: 0em;
+}
+
+#sectionContentInner4 .article p {
+  line-height: 1.43em;
+  padding-top: 0.5em;
+}
+
+#sectionContentInner1 .figure{margin-left: .2em;}
+#sectionContentInner1 .figure .textLeft{width: 30em;}
+
+/* end Fourth Page */
+
+/* Fifth Page -------------------- 
+Annette Billingsley
+*/
+#sectionContentInner5{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden; 
+  	height:71em;
+}
+
+#sectionContentInner5 .article { padding-top: 4em; margin-left: 0.1em; }
+#sectionContentInner5 .articleContent { padding: 1.5em 1.5em; width:41.9em; }
+
+#sectionContentInner5 .articleContent p { padding-bottom: 0.5em; }
+
+#sectionContentInner5 img.left {
+	float:left;
+	padding: 0em 2.9em 0.25em 0em;
+}
+
+#sectionContentInner5 .textRight {
+	float:left;
+	width:16em;
+	padding-top: 5.6em;
+}
+
+#sectionContentInner5 .textRight p {
+	padding-bottom: 0.5em;
+	line-height: 1.3em;
+}
+
+/* end Fifth Page */
+
+/* Sixth Page -------------------- 
+News Briefs
+*/
+#sectionContentInner6{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden; 
+  	height:161em;
+}
+
+#sectionContentInner6 .article { padding-top: 4em; margin-left: 0.1em; }
+#sectionContentInner6 .articleContent { padding: 1.5em 1.5em; width:41.9em; }
+
+#sectionContentInner6 .article p { padding-bottom: 1em; line-height:1.43em; }
+
+#sectionContentInner6 .textLeft {
+	float:left;
+	width:16em;
+	padding-top: 1.375em;
+}
+
+#sectionContentInner6 .figure {
+	padding-left: 1.5em;
+}
+
+#sectionContentInner6 .figCaption {
+	padding-top: 1.2em;
+}
+
+#sectionContentInner6 .figCaption.right {
+	width:35.7em;
+	text-align: right;
+	padding-top: 0.7em;
+}
+
+#sectionContentInner6 .figure.sectionDevelopmentProfile {
+	height: 29.3em;
+	padding-top: 0.25em;
+}
+
+#sectionContentInner6 .figure.cdf .textLeft {
+	width:24.4em;
+	padding-right:2.5em;
+}
+
+#sectionContentInner6 .figure.textOnly {
+	height: 15.3em;
+	padding-top: 2.2em;
+}
+
+#sectionContentInner6 .figure.textOnly.h14 {
+	height: 14em;
+}
+
+#sectionContentInner6 .figure.textOnly.h25p2 {
+	height: 25.2em;
+}
+
+#sectionContentInner6 .figure.textOnly p {
+	width:39em;
+}
+
+#sectionContentInner6 .figure.ruby {
+	height: 25.2em;
+	padding: 0.25em 0em 0em 0em;
+}
+
+#sectionContentInner6 .figure.lights  {
+	height: 26em;
+	padding: 0.25em 0em 0em 0em;
+}
+
+#sectionContentInner6 .figure.lights .textLeft {
+	width: 24.5em;
+	padding: 1.5em 2.5em 0em 1.5em;
+}
+
+#sectionContentInner6 .figure.lights .captionItalic {
+	width: 26em;
+	padding: 1.5em 0em 0em 28.5em;
+	font-style: italic;
+}
+
+#sectionContentInner6 img.left {
+	float:left;
+	padding: 0em 2em 0.25em 0em;
+}
+
+#sectionContentInner6 .textRight {
+	float:left;
+	width:23em;
+	padding-top: 1.75em;
+}
+
+#sectionContentInner6 .textRight p {
+	padding-bottom: 0em;
+	line-height: 1.3em;
+}
+
+/* end Sixth Page */
+
+/* Seventh Page -------------------- 
+CDF in the Community
+*/
+#sectionContentInner7{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden; 
+  	height:80em;
+}
+
+#sectionContentInner7 .article{	padding-top: 0.5em; margin-left: 0.1em;}
+#sectionContentInner7 .articleContent{	padding: 0.7em 1.5em; width: 51em; }
+
+#sectionContentInner7 .articleContent ul {
+	list-style-type: disc;
+	line-height:1.4em;
+	width: 50em;
+}
+
+#sectionContentInner7 .articleContent ul li {
+	padding-bottom: 1.2em;
+}
+
+#sectionContentInner7 img.left {
+	float:left;
+	padding: 0em 2.9em 0.25em 0em;
+  margin-left: .2em;
+}
+
+#sectionContentInner7 .textRight {
+	float:left;
+	width:26em;
+	padding-top: 5.6em;
+}
+
+/* end Seventh Page */
+
+/* Eighth Page -------------------- 
+Recent Partner Activity
+*/
+#sectionContentInner8{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden; 
+  	height:58em;
+}
+
+#sectionContentInner8 .article{	padding-top: 4em; margin-left: 0.1em;}
+#sectionContentInner8 .articleContent{	padding: 0.8em 2.5em;}
+
+#sectionContentInner8 .article ul {
+	list-style-type: none;
+	line-height:1.4em;
+	padding-top: 1.375em;
+}
+
+#sectionContentInner8 .article ul li {
+	padding-bottom: 1.5em;
+}
+
+#sectionContentInner8 .figure.h30 {
+	height: 30em;
+	margin-top:0.15em;
+  margin-left: .2em;
+}
+
+#sectionContentInner8 .figure.h35p5 {
+  height: 35.5em;
+  margin-left: .2em;
+}
+
+#sectionContentInner8 .figure.h25p9 {
+	height: 25em;
+  margin-left: .2em;
+}
+
+#sectionContentInner8 .figure.h22p9 {
+	height: 22.9em;
+}
+
+#sectionContentInner8 .figure .list.w27 { 
+	width:27em;
+	padding-left:1.375em; 
+	float:left;
+}
+
+#sectionContentInner8 img.left {
+	float:left;
+	padding: 0em 1.5em 0.15em 0em;
+}
+
+#sectionContentInner8 .textRight {
+	float:left;
+	width:26em;
+	padding-top: 12.3em;
+	font-style:italic;
+	line-height:1.4em;
+}
+
+/* end Eighth Page */
+
+/* Ninth Page -------------------- 
+Contact the Team
+*/
+#sectionContentInner9{
+	padding:0em 1.6em 0em 0.8em;
+	font-size:0.750em;
+  	overflow:hidden; 
+  	height:100em;
+}
+
+#sectionContentInner9 .figure a { color: #333333; font-weight: bold; text-decoration: underline; }
+
+#sectionContentInner9 .article{	padding-top: 4em; margin-left: 0.1em;}
+#sectionContentInner9 .articleContent{	padding: 0.8em 2.5em;}
+
+#sectionContentInner9 .article ul {
+	list-style-type: none;
+	line-height:1.4em;
+	padding-top: 0.4em;
+}
+
+#sectionContentInner9 .article ul li {
+	padding-bottom: 1.5em;
+}
+
+#sectionContentInner9 .figure {
+	padding: 0.5em 0em 0em 1.5em;
+}
+
+#sectionContentInner9 .figure.h10 {
+	height: 10em;
+}
+
+#sectionContentInner9 .figure.h18 {
+	height: 18em;
+}
+
+
+#sectionContentInner9 .figure.h22 {
+	height: 22em;
+}
+
+
+#sectionContentInner9 .figure.h35p5 {
+  height: 35.5em;
+  margin-left: .2em;
+}
+
+#sectionContentInner9 .figure.h42p5 {
+	height: 42.50em;
+}
+
+#sectionContentInner9 .figure.h37p25 {
+	height: 37.25em;
+}
+
+#sectionContentInner9 .figure.h35p25 {
+	height: 35.25em;
+}
+
+#sectionContentInner9 .figure.h57p5 {
+  height: 57.5em;
+  margin-left: .2em;
+}
+
+#sectionContentInner9 .figure.h50p25 {
+  height: 50.25em;
+  margin-left: .2em;
+}
+
+#sectionContentInner9 .figure.h27p35 {
+	height: 27.35em;
+}
+
+#sectionContentInner9 .figure.h32p5 {
+	height: 32.5em;
+}
+
+#sectionContentInner9 .figure.contact2 {
+	height: 7.3em;
+	margin-top:1.5em;
+	line-height: 1.4em;
+  margin-left: .2em;
+}
+
+#sectionContentInner9 .figure.contact {
+	height: 7.3em;
+	margin-top:0.15em;
+	line-height: 1.4em;
+  margin-left: .2em;
+}
+
+#sectionContentInner9 .figure.contact p {
+	width: 45.9em;
+}
+
+#sectionContentInner9 .figure.contact a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#sectionContentInner9 .figure.h22p9 {
+	height: 22.9em;
+}
+
+#sectionContentInner9 .figure .list.w27 { 
+	width:27em;
+	float:left;
+}
+
+#sectionContentInner9 img.left {
+	float:left;
+	padding: 0em 1.5em 0.15em 0em;
+}
+
+#sectionContentInner9 .textRight {
+	float:left;
+	width:26em;
+	padding-top: 12.3em;
+	font-style:italic;
+	line-height:1.4em;
+}
+
+/* end Ninth Page */
+
+h3#wider { width: 100%; padding-top: 0em; padding-bottom: 0em; }
+
+.divider {height:3.2em; line-height:1.2em;background:url('../../ubimages/hr-union-bank-CDFspr2016.gif') bottom left repeat-x; vertical-align:top}
+
+.figure { background-color: #ffffff; padding:0.125em 0em 0em 0.063em; }
+.figure .textLeft { float: left; width: 30.78em; }
+
+/*.figure .left50 { 
+	width:50%;
+	padding:0.125em 0em 0em 0.063em; 
+	float:left;
+}*/
+.figure .headshot { float: right; position: relative; margin: -9.25em 3em 0 0; font-size: .9em; line-height: 1.5em; }
+.figure.calloutRight { padding: 15px; margin-top: 0px; margin-bottom: 1em; margin-left: 1.9em; height: auto; float: right; width: 20em; }
+.figure.calloutLeft { padding: 15px; margin-top: 0px; margin-bottom: 1em; margin-right: 1.9em; height: auto; float: left; width: 20em; }
+.figureQuote { padding: 15px; margin-top: 10px; margin-bottom: 1em; height: auto; }
+.headshotRight { float: right; margin-left: 1.9em; margin-top: 1em; }
+.headshotLeft { float: left; margin-right: 1.9em; margin-top: 1em; margin-bottom: 1em;}
+.bold { font-weight: bold; }
+.question { font-style: italic; font-weight: bold; }
+
+#sectionLeftContent{
+	background:#ffffff;
+	position:relative;
+	width: 22.8em;
+    overflow:hidden;
+    height:100%; 
+}
+
+/* Start Nav Menu.
+------------------------------------------------------ */
+#head {
+	color:#5a5a5a;
+	background-color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:0.65em 0.8em 0.65em 0.95em;
+    height:0.8em;
+    font-size:1.9em;  
+    overflow:hidden;   
+}
+
+#foot{
+	overflow: hidden;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:0.8em 0em 0.8em 2.1em;
+    margin-bottom:0.1em;
+    font-size:1.0em;
+    font-weight:bold;
+   	left: 0px; top: 0px; width: 20.6em; height:auto;
+    background:url('../../ubimages/previous-issue-bckgrd-img-CDFspr2016.html') top left repeat;
+    position:relative;
+   
+          
+}
+
+#un-select{
+	width:19.5em;
+	height:2.8em;
+	color:#000;
+	overflow: hidden;	
+	background:url('../../ubimages/union-bank-select-CDFspr2016.html') top left no-repeat;
+	padding:0.5em 0em 0.1em 0.7em;
+}
+
+#foot #un-select select{
+	/* */
+    width: 108%;
+	height:2.2em;
+    border-style:none;
+	background: transparent;
+	color:#000;
+	overflow:hidden;
+}
+
+#menuSet {
+	font-size:100%;
+	color:#5a5a5a;
+	padding:0;
+    margin:0;
+	height:100%;
+    width: 22.8em;
+}
+
+
+ul.menu
+{
+	margin:0em;
+	padding:0em;
+	list-style-type:none;
+	position:relative;
+	font-size:100%;
+}
+
+ul.menu li
+{
+	margin:0em;
+	margin-bottom: 0.2em;
+	padding:0em;
+	left: 0px; 
+	top: 0px; 
+	width: auto; 
+	height:5.2em;
+    background:url('../../ubimages/cdf2016-nav-norm-CDFspr2016.jpg');
+}
+	
+ul.menu li a
+{
+	display:inline-block;
+    font-size:1.1em;
+	color:#5a5a5a;
+	padding:0.8em 1.1em 0.8em 1.8em;
+    /*margin-bottom:0.2em;*/
+	position:relative;
+	left: 0px; top: 0px; width: 17.4em; height:auto;
+	text-decoration:none;
+	height:2.713em;
+	line-height:1.25em;
+}
+
+ul.menu li a.lh1p1 { line-height:1.1em; }
+
+ul.menu li a.pt1p2 { padding-top: 1.2em; }
+
+ul.menu li a.pt1p3 { padding-top: 1.32em; }
+
+
+ul.menu li a.pt1p4 { padding-top: 1.4em; }
+
+ul.menu li a.pt1p8 { padding-top: 1.8em; }
+
+ul.menu li a.pt2 { padding-top: 2em; }
+
+
+ul.menu li a.item1
+{
+	padding:1.313em 1.1em 0.8em 2.3em;
+    /*margin-bottom:0.2em;*/
+	position:relative;
+	left: 0px; top: 0px; width: 17.4em; height:auto;
+	text-decoration:none;
+    background:url('../../ubimages/cdf2016-nav-norm-CDFspr2016.jpg');
+	height:2.713em;
+}
+
+ul.menu li.current
+{
+	background:url('../../ubimages/cdf2016-nav-active2-CDFspr2016.jpg') center left no-repeat;
+}
+
+ul.menu li.current a
+{
+	color:#fff;
+}
+
+ul.menu li.current a:hover
+{
+	/*background:url('/ubimages/cdf0914-nav-active-CDFspr2016.jpg') center left no-repeat;*/
+}
+
+/*ul.menu li.current:hover{background:url('/ubimages/cdf0914-nav-active-CDFspr2016.jpg') center left no-repeat;}*/
+ul.menu li:hover{background:url('../../ubimages/cdf2016-nav-active2-CDFspr2016.jpg') center left no-repeat;color:#fff;}
+ul.menu li:hover a {color:#fff;}
+ul.menu li a:hover{color:#fff;}
+
+/* End HTML5 Nav Menu.
+------------------------------------------------------ */
+
+/* 
+Social Buttons
+------------------------------------------------------ */
+#social{
+overflow:hidden; 
+	position:relative;
+	left: 0px; top: 0px; width: 100%; height:2.5em; padding: 0em 0.9em 0em 1.9em; margin-top:0.7em;
+}
+.socialButton{
+	float:left;
+	padding-left:0.1em;
+	width:7.5em;
+}
+
+
+/* Footer
+---------------------------------------- */
+
+#footer{	 
+	background:url('../../ubimages/cdf0914-footer-CDFspr2016.png') top left no-repeat;
+	position:relative;
+	z-index:900; 
+    width:61.5625em; 
+	margin:0em auto 0em auto;
+	overflow: hidden;
+}
+
+#footerContentInner{
+	color:#5a5a5a;
+	font-size:0.72em;
+	height: 26em;
+   	width:89.2em;
+	background-color:#EDEDED;
+	margin-top:5px;
+}
+
+#footer ol { list-style: decimal outside; margin: 0 0 10px 20px; }
+#footer ol li { display: list-item; }
+#footer a { text-decoration: none; }
+.footerFinal a { color: #2846aa; }
+/* Start left & right footer */
+	
+div.footerLeft{
+	text-align:left;
+	position:absolute;
+	top: 0em; 
+	left: 0; 
+	height:auto;
+	padding-left:0.8em;
+	width:76.1em;
+	margin-top:2.5em;
+}
+div.footerRight{
+	text-align:right;
+	position:absolute;
+	left:77.7em;
+	top: 0em; 
+	width: 8.6em;		
+	height:4em;
+	margin-top:1.5em;
+}
+ 	
+div.footerFinal{
+	text-align: left;
+	position: absolute;
+	left: 0;
+	line-height:1.4em;
+	height: auto;
+	width: 85.6em;
+	margin-top: 1.5em;
+	padding: 3em 3em 0em 0.8em;
+ }
+ 
+ div.footerFinal p {
+	padding-bottom: 1em;
+ }
+ 
+div.footerEHL {
+	  vertical-align: bottom;
+	  height: auto;
+	  width:32px;
+	  float:left;
+	  margin-right: 0.5em;
+	  
+ }
+ 
+div.footerCopyright {
+	  vertical-align: bottom;
+	  height: auto;
+	  padding-top:0.4em;
+ } 
+
+/* Start hCard and Corporate Details */ 	
+ 	
+.corpDetails{
+    margin-top:1em;
+	font-family:Arial;
+	font-size:1.2em;
+}
+.executiveName{
+	font-weight:bold;
+}
+.executivePosition{
+	font-weight:300;
+}
+
+.extendedVcard {
+    margin-top:1em;
+	font-family:Arial;
+	font-size:1.2em;
+}
+
+.extendedVcard .fn, .n{
+    font-weight:bold;
+}
+
+.super {
+  position: relative;
+bottom: 0.3em;
+font-size: 0.8em;
+}
+
+ul.normal {
+	margin-left: 30px
+}
+li.bullet {
+	list-style: disc;
+	padding-bottom: .2em
+}
+.quote {
+	font-weight: bold;
+	font-size: 1.3em;
+	font-style: italic;
+	color: #666666
+}
+.large {
+	font-size: 1.3em;
+}
+
+/* PADDING TOP */
+.pt1 { padding-top: 1em; }
+.pt3 { padding-top: 3em; }
+/* PADDING BOTTOM */
+.pb07 { padding-bottom: 0.7em; }
+.pb1 { padding-bottom: 1em; }
+/* PADDING LEFT */
+.pl1 { padding-left: 1em; }
+/* MARGIN TOP */
+.mt14 { margin-top: 1.4em; }
+/* MARGIN BOTTOM */
+.mb0 { margin-bottom: 0em; }
+/* MARGIN LEFT */
+.ml0 { margin-left: 0em; }
+/* HEIGHT */
+.h4 { height: 4em; }
+
+
+figCaption {
+  margin-top: 20px;
+}
+
+figCaption #communityFigCaption {
+  color:#000;
+  font-size:0.79em;
+  line-height:1.2em;
+  font-weight:bold;
+  margin-top: 250px;
+}
+
+figCaption #SpotlightFigCaption {
+  color:#000;
+  font-size:0.79em;
+  line-height:1.2em;
+  font-weight:bold;
+}
+
+figCaption #DevelopmentProfileCaption {
+  color:#000;
+  font-size:0.79em;
+  line-height:1.2em;
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

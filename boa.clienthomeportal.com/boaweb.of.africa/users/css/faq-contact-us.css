@@ -1,0 +1,314 @@
+﻿/* file: faq-contact-us.css, FAQ/Contact Us style/theme */
+
+
+.ub-search-faq {
+    background: url("img/input_backg_l300.gif") no-repeat 0 0;
+    border: 0;
+    float: left;
+    height: 18px;
+    padding: 0 0 2px 5px;
+    width: 290px;
+}
+
+.ub-search-faq-submit{
+    background-image: url("img/top-nav-bg.png");
+	background-repeat: no-repeat;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	background-position: right -276px;
+    border: 0;
+    float: left;
+    height: 20px;
+    text-indent: -9999px;
+    width : 32px;
+}
+
+
+.ub-half-height {
+    font-size: 50%;
+}
+
+.ub-2-across.ub-left {
+    float: left;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.ub-2-across.ub-right {
+    float: left;
+    margin-right: 0;
+    width: 49%;
+}
+
+.ub-clear-both {
+    clear: both;
+}
+
+.ub-1em-n {
+    padding-top: 1em !important;
+}
+
+.ub-10px-n {
+    padding-top: 10px !important;
+}
+
+ul.ub-list-vert {
+    list-style: none outside none !important;
+    margin-left:  0 !important;
+    padding-left: 0 !important;
+    text-indent:  0 !important;
+}
+
+/* essential table layout rules */
+table.ub-gci-table { table-layout: fixed; border-collapse: collapse; }
+table.ub-gci-table th,
+table.ub-gci-table td {
+    vertical-align: top;
+}
+
+table.ub-gci-table .ub-content-1col { width:  92px; padding: 6px; }
+table.ub-gci-table .ub-content-2col { width: 196px; padding: 6px; }
+table.ub-gci-table .ub-content-3col { width: 300px; padding: 6px; }
+table.ub-gci-table .ub-content-4col { width: 404px; padding: 6px; }
+
+table.ub-gci-table .ub-spacing-1col { width: 104px; padding: 0; }
+table.ub-gci-table .ub-spacing-2col { width: 208px; padding: 0; }
+table.ub-gci-table .ub-spacing-3col { width: 312px; padding: 0; }
+table.ub-gci-table .ub-spacing-4col { width: 416px; padding: 0; }
+
+table.ub-gci-table thead th {
+    background: #888;
+    color: #FFF;
+    font: bold 100% sans-serif;
+    text-align: left;
+}
+
+table.ub-gci-table tbody th {
+    background: #DDD;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* dotted-border's */
+table.ub-gci-table.ub-dotted-border th,
+table.ub-gci-table.ub-dotted-border td {
+    border-right: 1px dotted #777;
+    border-bottom: 1px dotted #777;
+    border-left: 1px dotted #777;
+}
+
+table.ub-gci-table.ub-dotted-border table th,
+table.ub-gci-table.ub-dotted-border table td {
+    border: none;
+    line-height: 100%;
+    padding-bottom: 1em;
+}
+
+table.ub-gci-table tr td.ub-dotted-border-lt {
+    border-left: 1px dotted #777 !important;
+}
+
+table.ub-gci-table tr td.ub-dotted-border-rt {
+    border-right: 1px dotted #777 !important;
+}
+
+.ub-dotted-line-horiz {
+    border-bottom: 1px dotted #777;
+    line-height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+/* invert the border color between th's */
+table.ub-gci-table tbody th {
+    border-bottom: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+}
+
+table.ub-gci-table tbody tr.first th {
+    border-bottom: 2px solid #FFF;
+    border-top: none;
+}
+
+table.ub-gci-table tbody tr.last th {
+    border-bottom: 1px dotted #777;
+    border-top: 2px solid #FFF;
+}
+
+table.ub-gci-table.ub-dotted-border th.ub-dotted-border-t,
+table.ub-gci-table.ub-dotted-border td.ub-dotted-border-t {
+	border-top: 1px dotted #777;
+}
+
+
+/*******************************/
+
+/*
+.help-cta-wrapper {
+    background-color: #777 !important;
+}
+
+.help-cta-wrapper h3,
+.help-cta-wrapper p {
+    color: white;
+}
+
+ .help-cta-wrapper .help-cta-unit-left,
+ .help-cta-wrapper .help-cta-unit-right {
+     float: left;
+ }
+
+ .help-cta-wrapper .help-cta-unit-left {
+     width: 50px;
+ }
+
+ .help-cta-wrapper .help-cta-unit-right {
+     width: 150px;
+ }
+ */
+
+ /*******************************/
+
+/***************************************
+- styles for CTA
+- separated solely for development use
+- will finally be combined with the main css file
+***************************************/
+
+.help-cta-wrapper
+{
+    background-color: #939393;
+    border-top: 6px solid #424242;
+    color: #ffffff;
+    padding: 6px 10px;
+}
+
+.help-cta-wrapper h3
+{
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 0 6px;
+}
+
+.help-cta-row
+{
+    border-top: 1px dotted #6f6f6f;
+    min-height: 40px;
+    padding: 6px 0;
+}
+
+.help-cta-row.no-border
+{
+    border-top: 0 none;
+}
+
+.help-cta-row .cta-button, .cta-button .text
+{
+    /* background: url("/hoabankers/includes/img/layout/z-top-nav-bg.png") no-repeat scroll 0 0 transparent; */
+}
+
+.help-cta-row .cta-button
+{
+    background-position: right -730px;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin: 0.5em 0;
+    text-decoration: none;
+}
+
+.help-cta-row .cta-button .text
+{
+    background-position: left -750px;
+    display: block;
+    height: 17px;
+    margin: 0 14px 0 0;
+    padding: 1px 6px 0;
+}
+
+.help-cta-unit-left
+{
+    float: left;
+    margin-right: 6px;
+    width: 45px;
+}
+
+.help-cta-unit-right
+{
+    float: right;
+    width: 153px;
+}
+
+.help-cta-unit .clear
+{
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+
+.help-cta-unit-title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.help-cta-unit-right ol
+{
+    list-style: decimal inside none;
+    margin: 0.25em 0;
+}
+
+.help-cta-unit ol {
+	list-style: decimal none outside !important;
+	margin-bottom: 0.25em !important;
+	margin-left: 2em !important;
+	margin-right: 0em !important;
+	margin-top: 0.25em !important;
+	padding-left:0px;
+}
+
+.help-cta-unit li {
+	margin:0px !important;
+	padding:0px !important;
+}
+
+.help-cta-unit-right a, .help-cta-unit a
+{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.help-cta-unit-right p, .help-cta-unit p
+{
+    margin: 0.5em 0px;
+}
+
+/* For FAQ_LOB */
+
+.ub-FAQLOB-divforOL
+{    
+	float: left; 
+	width: 45%; 
+	padding: 0 5px 0 0;
+}
+
+.ub-FAQLOB-li
+{    
+	margin-left: 0.7em;
+}
+
+.ub-dotted-line-horiz clear
+{
+	clear: both;	
+}
+
+
+ /*******************************/
+
+/* vim: set ts=4 sw=4 sts=4 sws=4 expandtab : */

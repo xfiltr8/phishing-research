@@ -1,0 +1,30 @@
+[23-May-2019 14:15:16 UTC] PHP Warning:  include_once(../include/functions.php): failed to open stream: No such file or directory in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 14:15:16 UTC] PHP Warning:  include_once(): Failed opening '../include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 14:15:16 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 14:15:16 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 14:15:16 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 14:17:10 UTC] PHP Warning:  include_once(../include/functions.php): failed to open stream: No such file or directory in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 14:17:10 UTC] PHP Warning:  include_once(): Failed opening '../include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 14:17:10 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 14:17:10 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 14:17:10 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 17:41:14 UTC] PHP Warning:  include_once(../include/functions.php): failed to open stream: No such file or directory in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 17:41:14 UTC] PHP Warning:  include_once(): Failed opening '../include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 17:41:14 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 17:41:14 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 17:41:14 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 20:15:59 UTC] PHP Warning:  include_once(../include/functions.php): failed to open stream: No such file or directory in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 20:15:59 UTC] PHP Warning:  include_once(): Failed opening '../include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 20:15:59 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 20:15:59 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 20:15:59 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 22:30:29 UTC] PHP Warning:  include_once(../include/functions.php): failed to open stream: No such file or directory in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 22:30:29 UTC] PHP Warning:  include_once(): Failed opening '../include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 22:30:29 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 22:30:29 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 22:30:29 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 23:13:50 UTC] PHP Warning:  include_once(../include/functions.php): failed to open stream: No such file or directory in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 23:13:50 UTC] PHP Warning:  include_once(): Failed opening '../include/functions.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 2
+[23-May-2019 23:13:50 UTC] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 23:13:50 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11
+[23-May-2019 23:13:50 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/homeonli/uba.homeonlin.com/uba/login/login.php on line 11

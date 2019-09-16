@@ -1,0 +1,114 @@
+/* layout-print.css */
+html,body {
+    background: none !important;
+}
+
+@media print {
+    .top-toolbar {display:none;}
+    .printable-version { padding: 0; }
+	.printable-version div {border: solid 1px #fff;}
+}
+
+body.printable-version ul,
+body.printable-version ol { padding-left: 20px; margin:1em 0; }
+
+body.printable-version ul{ list-style-type:disc; }
+body.printable-version ol{ list-style-type:decimal; }
+
+.shadow-element,
+.footer,
+.top-actions-container,
+.main-content-right-rail,
+.main-content-left-rail,
+.header-container,
+.header-wrapper,
+.comparison-chart-title a,
+.comparison-chart-tfoot {
+    display:none !important;
+}
+.copyright-footer {
+    border-top: none;
+	margin: 8px 0;
+	width: 628px;
+}
+.comparison-chart-thead,
+.comparison-chart-table{
+    width: 850px !important;
+}
+.home-services-content, .content {
+    margin: 0;
+}
+
+.printable-logo {
+    margin: 8px;
+
+}
+
+.comparison-chart-title {
+    background-color : #FFF;
+}
+.comparison-chart-title h2 {
+    color : #000;
+}
+.comparison-chart {
+    overflow : visible;
+}
+
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 7px;
+    width: 217px;
+    height: 47px;
+    background: url(img/logo-1.png) no-repeat 0 0;
+}
+
+#the-private-bank .logo { background: url(img/logo-2.png) no-repeat 0 0; }
+
+.jspContainer, .jspScrollable { overflow: visible !important; height:auto !important;
+width:auto !important; position: static !important}
+.jspVerticalBar { display:none !important }
+.jspPane {
+    position: static;
+    top: 0 !important;
+    width:auto !important;
+}
+
+.overlay-header .right { display: none !important }
+
+.tabs { display: none }
+
+/* ===== ITG Rate Chart ====================== */
+.overlay-header .itg-right { display: none !important }
+
+.itg-rate-chart-content .itg-rate-chart-text {background: none !important; color:#000 !important;}
+.itg-rate-chart-content .itg-rate-chart-title {background: none !important;color:#000 !important;}
+.itg-rate-chart-table caption {background:none #9F968E repeat;color:#FFF;font-weight:bold;font-size:1.455em;border:none;padding: 9px 0 9px 9px;text-align:left; border: 2px solid white;}
+
+/* ===== ITG Rate Chart [END] ====================== */
+
+/* ===== MKS 17679 starts ===== */
+.main-content-top-right {overflow: auto;}
+.layout-2-col .main-content-bottom-right, .layout-2-col .main-content-top-right {float: none; width: 685px;}
+.footer-3-cols {clear: both; display: block; overflow: hidden; height: 0; width: 0; visibility: hidden;}
+.copyright-footer, .footer {clear: both; display: block;}
+/* ===== MKS 17679 ends ===== */
+
+.ie7 .product-details-container{float:left; width:100% }
+
+/* ===== MKS UBR #17494  ====================== */
+ .ie6 .printable-logo
+{
+    width: 214px !important;
+    height: 50px !important
+}
+/* ===== MKS UBR #17494 [END] ====================== */
+
+/* MKS 17856 starts */
+.ie6 .copyright-footer {page-break-before: always;}
+.ie6 .main-content-top-right, .ie6 .main-content-top-right img {position:relative;}
+.ie6 .main-content-top-right {height:300px;}
+.ie6 .main-content-top-right-left {position:absolute; top:0; left:0;}
+.ie6 .main-content-top-right-right {position:absolute; top:0; right:0;}
+/* MKS 17856 ends */

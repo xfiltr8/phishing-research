@@ -1,0 +1,280 @@
+html, body {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-size:62.5%;
+  font-family:'Graphik Web', 'Arial', sans-serif;
+  font-weight:300;
+  height:100%;
+}
+
+#mwd--wrapper {
+  font-size:2.25em;
+}
+
+#mwd--logoSection {
+  background-color:black;
+  color:white;
+}
+
+.mwd--constrain-width {
+  max-width:960px;
+  margin:0 auto;
+  position:relative;
+}
+
+#mwd--bodySection::after {
+  content:"";
+  clear:both;
+  display:block;
+}
+
+.mwd--red-bar {
+  display:inline-block;
+  position:absolute;
+  background-color:#e60000;
+  height:100%;
+  width:0.95em;
+}
+
+.mwd--red-bar-container .mwd--red-bar {
+  width:0.65em !important;
+}
+
+.mwd--bold-text {
+  font-weight:500;
+}
+
+.mwd--red-heading {
+  color:#e60000;
+}
+
+.mwd--sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+    font-size: 67.5%;
+}
+
+.mwd--regular-text {
+  line-height:1.4em;
+  font-size:1.15em;
+}
+
+.mwd--right-hand-copy-container {
+  padding:0 1.5em;
+  font-weight:400;
+}
+
+.mwd--main-img {
+  width:100%;
+}
+
+.mwd--right-hand-text {
+  line-height:1.5em;
+  font-size:1.1em;
+}
+
+.mwd--right-hand-heading {
+  font-size:1.3em;
+  padding-top:0.75em;
+  line-height:1.4em;
+}
+
+.mwd--red-bar-text {
+  font-size:2.1em;
+  margin-left:1em;
+}
+
+.mwd--disclosure {
+  text-align:justify;
+  letter-spacing:-0.5px;
+  line-height:1.3em;
+  font-size:1.1em;
+}
+
+.mwd--right-hand-container {
+  background-color:rgba(147,149,152,0.25);
+}
+
+.mwd--copyright-container {
+  font-size:0.75em;
+  position:relative;
+}
+
+.mwd--copyright {
+  margin:0.5em 0;
+}
+
+.mwd--ehl-container {
+  position:absolute;
+  right:0;
+}
+
+.mwd--ehl-text, .mwd--ehl-img {
+  vertical-align:middle;
+}
+
+.mwd--ehl-img {
+  margin-left:10px;
+  width:20px;
+}
+
+@media only screen and (min-width:668px) {
+
+  .mwd--mobile-only {
+    display:none;
+  }
+
+  .mwd--black-bar-container {
+    padding: 2.5em 4em 8em 0em;
+  }
+
+  .mwd--header-text {
+    color:white;
+    font-weight:200;
+    font-size:2.5em;
+    padding-left:10%;
+    line-height:1.15em;
+  }
+  .mwd--left-hand-copy-container {
+    float:left;
+    width:62.5%;
+  }
+
+  .mwd--right-hand-container {
+    width:36%;
+    position:absolute;
+    right:0;
+    height:100%;
+  }
+
+  #mwd--bodySection {
+    padding-left:4em;
+    height:100%;
+    margin-bottom:5em;
+  }
+
+  .mwd--left-hand-text {
+    padding-right:6em;
+  }
+
+  .mwd--main-header-box {
+    margin: -5.5em 0 3.5em -4em;
+    position:relative;
+    width:100%;
+  }
+
+  .mwd--header-text-container {
+    width:97%;
+    padding-right:2em;
+    display:inline-block;
+    background: #b1b3b6; /* Old browsers */
+    background: -webkit-linear-gradient(left, #b1b3b6 0%, #636466 100%);
+    background: -o-linear-gradient(left, #b1b3b6 0%, #636466 100%);
+    background: linear-gradient(to right, #b1b3b6 0%, #636466 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b3b6', endColorstr='#636466',GradientType=1 ); /* IE6-9 */
+  }
+
+  #mwd--footerSection {
+    padding:2em 4em;
+  }
+
+  .mwd--text-logo {
+    font-size:1em;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    padding-top:1em;
+    padding-left:6.25%;
+    display:inline-block;
+  }
+
+  .mwd--private-bank-img {
+    position:absolute;
+    right:4em;
+    width:25%;
+    max-width:33%;
+  }
+
+  .mwd--red-bar-container {
+    position:relative;
+    font-size:0.5em;
+    margin-top:9em;
+  }
+
+}
+
+@media only screen and (max-width:667px) {
+
+  .mwd--desktop-only {
+    display:none;
+  }
+
+    .mwd--black-bar-container {
+  padding: 0.5em 0em 2em 0em;
+}
+
+  #mwd--bodySection {
+    height:100%;
+    margin-bottom:5em;
+  }
+
+  .mwd--main-header-box {
+    position:relative;
+    width:100%;
+  }
+
+  .mwd--header-text-container {
+    display:inline-block;
+    background: #b1b3b6; /* Old browsers */
+    background: -webkit-linear-gradient(left, #b1b3b6 0%, #636466 100%);
+    background: -o-linear-gradient(left, #b1b3b6 0%, #636466 100%);
+    background: linear-gradient(to right, #b1b3b6 0%, #636466 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1b3b6', endColorstr='#636466',GradientType=1 ); /* IE6-9 */
+  }
+
+  .mwd--left-hand-text, #mwd--footerSection, .mwd--right-hand-container {
+    padding:1em 2.6em;
+  }
+
+  .mwd--right-hand-copy-container {
+    padding:0;
+  }
+
+  .mwd--header-text {
+    color:white;
+    font-weight:300;
+    font-size:2em;
+    padding:0 1.25em;
+    line-height:1.15em;
+  }
+
+  .mwd--text-logo {
+    font-size:0.75em;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    padding-top:2em;
+    padding-left:6.25%;
+    display:inline-block;
+  }
+
+  .mwd--private-bank-img {
+    display:block;
+    padding-left:2.5em;
+    padding-top:2em;
+    width:50%;
+  }
+
+  .mwd--mobile-hero-container {
+    margin-top:-3px;
+    z-index:5;
+    position:relative;
+  }
+
+  .mwd--red-bar-container {
+    position:relative;
+    font-size:0.5em;
+    margin-top:3em;
+  }
+
+}

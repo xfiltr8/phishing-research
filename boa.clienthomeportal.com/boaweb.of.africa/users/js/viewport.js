@@ -1,0 +1,1 @@
+var mvp=document.querySelector('meta[name="viewport"]');if(mvp){var minDeviceWidth=Math.min(screen.width,screen.height);var minTabletWidth=768;var appWidth1=420;var appWidth2=830;if(minDeviceWidth<minTabletWidth){mvp.setAttribute("content","width="+appWidth1)}else{mvp.setAttribute("content","width="+appWidth2)}};

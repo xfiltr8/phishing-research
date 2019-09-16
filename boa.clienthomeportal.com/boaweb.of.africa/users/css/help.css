@@ -1,0 +1,138 @@
+body.help {
+	font-size:13px;
+}
+
+.help .container {
+	width:705px;
+	padding:0 20px;
+}
+
+.help .container .btn{
+	font-size:13px;
+}
+
+.help .container a:active {
+/*  outline: none;
+  -moz-outline-style: none;*/
+}
+.help .container a:focus {
+/*  outline: none;
+  -moz-outline-style: none;*/
+}
+
+.help .header {
+	padding:10px 0;
+	background-color: #2846AA;
+}
+
+.help .header .logo {
+	margin:0 0 0 15px;
+}
+
+
+.help .container h5 {
+	margin:10px 0 3px;
+	font-size:13px;
+}
+
+.help .container .help-topics-holder {
+	display: block;
+}
+
+.help .container .help-articles-holder {
+	display: none;
+}
+
+.help .container li {
+	cursor:pointer;
+
+}
+
+.help .container ul {
+	margin:0;
+}
+
+.help .container .help-topics-holder  a {
+	cursor:pointer;
+	color:#2846aa;
+}
+
+.help .container .divider {
+	font-weight: bold;
+	margin:10px 0;
+}
+
+.help .container .help-topics-holder .sectionless {
+	cursor: pointer;
+}
+
+.help .container .help-topics-holder .topics {
+	width:50%;
+	float:left;
+}
+
+.help .container .help-articles-holder .help-center {
+	cursor: pointer;
+	color:#2846aa;
+}
+
+.help .container .help-articles-holder .help-center a {
+	text-decoration:none;
+}
+
+.help .container .help-articles-holder .help-center a:hover {
+	border-bottom: 1px solid #2846aa;
+}
+
+.help .container ul ul li{
+	margin: 0 0 10px;
+}
+
+.accordion-heading .accordion-toggle {
+	background: #f4f5f6;
+	color: #2846aa;
+}
+
+.accordion-nav {
+	float:right;
+}
+
+.accordion-nav .divider-vertical {
+	border-left: 1px solid #777777;
+    height: 10px;
+    margin: 10px 0 0
+}
+
+.accordion-nav > li {
+	display:inline;
+}
+
+.accordion {
+	clear:both;
+}
+
+.highlight-blue {
+	color: #FFFFFF;
+	background: #0000FF;
+}
+.highlight-green {
+	color: #FFFFFF;
+	background: #00BF00;
+}
+.highlight-orange {
+	color: #FFFFFF;
+	background: #FF5500;
+}
+.highlight-red {
+	color: #FFFFFF;
+	background: #FF0000;
+}
+
+/* MS word generated CSS for table */
+p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12px ; font-family: 'Times New Roman', serif; min-height: 11.0px}
+p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 12px; font-family: Calibri, "sans-serif"}
+p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12px; font-family: Calibri, "sans-serif"}
+table.t1 {border:1px solid #cbcbcb; border-collapse: collapse}
+td.td1 {width: 150px; border:1px solid #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+td.td2 {width: 190px; border:1px solid #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+td.td3 {width: 190px; border:1px solid #cbcbcb;; padding: 0.0px 5.0px 0.0px 5.0px}

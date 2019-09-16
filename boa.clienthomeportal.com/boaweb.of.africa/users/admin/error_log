@@ -1,0 +1,2 @@
+[23-May-2019 14:06:11 UTC] PHP Warning:  mysql_connect(): Access denied for user 'unionbon_ubnbk'@'localhost' (using password: YES) in /home/homeonli/uba.homeonlin.com/uba/login/include/functions.php on line 7
+[23-May-2019 14:06:11 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in /home/homeonli/uba.homeonlin.com/uba/login/include/functions.php on line 7

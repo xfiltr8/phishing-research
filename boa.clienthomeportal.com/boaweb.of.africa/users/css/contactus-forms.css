@@ -1,0 +1,72 @@
+
+input.contactus{
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+textarea.contactus{
+    border-top: 1px solid #333333;
+    border-left: 1px solid #333333;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.ub-validation-error{
+    color: red;
+}
+
+.ub-validation-required{
+    color: red;
+    text-emphasis-color: red;
+}
+
+.main{
+    width:186px;
+    height:17px;
+}
+
+
+.ub-contactus-form-small{
+    width:32px;
+    height:17px;
+}
+
+.message-txt{
+    width:186px;
+    height:80px;
+}
+
+.phone-areacode{
+    width: 30px;
+    height: 17px;
+}
+
+.phone-prefix{
+    width: 30px;
+    height: 17px;
+}
+
+.phone-number{
+    width: 40px;
+    height: 17px;
+}
+
+.phone-extension{
+    width:30px;
+    height: 17px;
+}
+
+.contactus-type{
+    width: 170px;
+}
+
+.countdown{
+    font-size: 1.0em;
+}
+
+.currentBank{
+   # text-align:center;
+}

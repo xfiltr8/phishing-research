@@ -1,0 +1,105 @@
+.video_area {
+	position: relative;
+	/* margin: 30px 0; */
+}
+
+.video_area p.field input[type=text] {
+	width: 200px;
+}
+.video_area p.field select,
+.video_area p.field input {
+	position: absolute;
+	left: 200px;
+}
+.video_area p.caption {
+	font-size: 10px;
+	color: #666;
+}
+.video_area p.caption em {
+	display: block;
+}
+
+.video_area .video_player {
+	position: relative;
+	text-decoration: none;
+	color: #000;
+	
+	/* 50% tint of #8e8e8e */
+	background: #c7c7c7 none no-repeat center center;
+}
+
+.video_area .share_bar {
+	position: relative;
+	background: #c7c7c7;
+	padding: 0;
+	text-align: right;
+	height: 30px;
+}
+.video_area .share_bar .button {
+	font-size: 10px;
+	line-height: 22px;
+	color: #ccc;
+	text-decoration: none;
+	border: 1px solid #444;
+	padding: 0 18px;
+	display: none;
+	margin: 3px 10px 3px 0;
+}
+.video_area .share_bar.iOS .button.embed {
+	display: none;
+}
+
+.video_area .share_bar .logo {
+	background: transparent none no-repeat;
+	width: 108px;
+	height: 24px;
+	display: block;
+	float: left;
+	margin: 3px 0 3px 12px;
+}
+
+.video_area .share_bar .button.engaged {
+	background: #ccc;
+	color: #444;
+}
+.video_area .share_bar .button:hover {
+	color: #fff;
+	background: #444;
+	border: 1px solid #fff;
+}
+
+.video_area .addthis_toolbox {
+	float: right;
+	padding: 6px 12px 0 0;
+}
+
+.video_area .clear {
+	clear: both;
+}
+
+.video_area .video_player .fail {
+	width: 75%;
+	height: 75%;
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.75);
+	margin: 0 auto;
+	padding: 12px;
+	position: relative;
+	top: 20px;
+	font-size: 12px;
+}
+
+.video_area .video_player .fail h2,
+.video_area .video_player .fail h3 {
+	margin: 2px 0;
+	
+}
+
+.video_area.branded .share_bar .logo {
+	background-image: url(img/video_logo_sm.png);
+	top: 0;
+}
+
+.video_area.branded .video_player {
+	background-image: url(img/video_loader_3d.png);
+}

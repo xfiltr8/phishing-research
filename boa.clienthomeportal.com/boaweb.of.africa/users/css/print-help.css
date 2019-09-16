@@ -1,0 +1,10 @@
+.header-ub { display: none; }
+.footer { display: none; }
+#print-only-logo { display: block; margin: 15px; }
+
+pre,blockquote{page-break-inside:auto;}
+tr,img{page-break-inside:auto;}
+h2,h3{page-break-after:auto;}
+a[href]:after { display:none; }
+
+.container { width: 100%; }
