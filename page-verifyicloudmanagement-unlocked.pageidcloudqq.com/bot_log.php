@@ -1,0 +1,2 @@
+<?php $start = "1538086473";  $end = strtotime(date("Y-m-d H:i:s"));   echo '<font color=red>NEW BOT</font> > 180.245.180.10, Chrome, Unknown OS Platform, Indonesia, Bandung, 2018-09-27, <font color=red>';  echo round(abs($end - $start) / 60,0). " minute ago </font><br/>"; ?>
+    
